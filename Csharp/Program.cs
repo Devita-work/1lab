@@ -7,7 +7,7 @@ namespace Csharp
         static void Main(string[] args)
         {
             int[] allmonth = new int[12] { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-            Console.WriteLine("Введите колличество дней:");
+            Console.WriteLine("Введите количество дней:");
             int day = Convert.ToInt32(Console.ReadLine());
             int year = day / 365;
             int i = 0;

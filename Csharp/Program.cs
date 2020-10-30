@@ -16,8 +16,7 @@ namespace Csharp
             day = day % 365;
             while (day - allmonth[i] > 0)
                     {
-                day = day - allmonth[i];
-                i++;
+                day = day - allmonth[month];
                 month++;
                     }
             Console.WriteLine($"Лет = {year} \nМесяцев = {month} \nДней = {day}");
